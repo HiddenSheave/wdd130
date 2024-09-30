@@ -9,3 +9,22 @@ img {
 header {
     text-align: center;
 }
+.note {
+    font-style: italic;
+    font-weight: bold;
+}  
+.editorial {
+    background: rgb(255, 0, 0, 0.25);
+    padding: 10px;
+}
+  .editorial:before {
+    content: 'Editor: ';
+}
+  #highlight {
+    background-color: lightyellow;
+    text-decoration: underline;
+}
+text {
+    float: right;
+    margin: 20px;
+}
