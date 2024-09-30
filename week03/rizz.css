@@ -1,0 +1,11 @@
+div {
+    max-width: 600px;
+}
+img {
+    max-width: 700px;
+    max-height: auto;
+    border: 4px;
+}
+header {
+    text-align: center;
+}
