@@ -1,0 +1,58 @@
+:root {
+    --background-color: rgb(255, 255, 255);
+    --heading-font: 'sans serif';
+    --border: 1px solid rgb(199, 0, 0);
+    --padding: 10px;
+}
+nav { /*have to use nav or div*/
+    background-color: var(--background-color);
+    padding: var(--padding);
+}
+nav a{
+    color: rgb(162, 0, 255);
+    display: block;
+    padding: var(--padding);
+}
+h1 {
+    color: rgb(0, 36, 194);
+    padding: var(--padding);
+}
+img {
+    width: 200px;
+    height: auto;
+    border: var(--border);
+    padding: 2px;
+    box-shadow: 0 0 30px gray;
+    margin-left: 20px;
+}
+p { 
+    padding: 0px;
+}
+section {
+    width: 600px;
+    padding: 25px;
+}
+main {
+    max-width: 840px;
+}
+main img {
+    width: 150px;
+    height: auto;
+}
+aside { /*edit the aside element within the body*/
+    width: 20rem; 
+    margin: 20px;
+    border: 3px solid rgba(rgb(0, 34, 255), rgb(210, 0, 0), rgb(0, 27, 229), 0.2);
+    padding: var(--padding);
+    background-color: whitesmoke;
+    color: #810000;
+}
+aside img {
+    width: 250px;
+    height: auto;
+}
+footer {
+    margin-top: auto;
+    border-top: 1px solid#001c81;
+    text-align: center;
+}
