@@ -1,5 +1,5 @@
 :root {
-    --background-color: rgb(255, 255, 255);
+    --background-color: whitesmoke;
     --heading-font: 'sans serif';
     --border: 1px solid rgb(199, 0, 0);
     --padding: 10px;
@@ -9,6 +9,7 @@ nav { /*have to use nav or div*/
     padding: var(--padding);
 }
 nav a{
+    background-color: var(--background-color);
     color: rgb(162, 0, 255);
     display: block;
     padding: var(--padding);
@@ -16,6 +17,11 @@ nav a{
 h1 {
     color: rgb(0, 36, 194);
     padding: var(--padding);
+}
+h2 {
+    color: rgb(0, 36, 194);
+    padding: var(--padding);
+    margin-top: 5px;
 }
 img {
     width: 200px;
@@ -34,25 +40,45 @@ section {
 }
 main {
     max-width: 840px;
+    margin-left: 20px;
+    padding: var(--padding);
 }
 main img {
     width: 150px;
     height: auto;
+    float: right;
+}
+aside  h2 {
+    position: absolute;
+    margin-top: 10px;
+    font-size: small;
+    color: #ff3636;
+    margin-left: 35px;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 aside { /*edit the aside element within the body*/
     width: 20rem; 
-    margin: 20px;
-    border: 3px solid rgba(rgb(0, 34, 255), rgb(210, 0, 0), rgb(0, 27, 229), 0.2);
-    padding: var(--padding);
-    background-color: whitesmoke;
-    color: #810000;
+    text-align: center;
 }
 aside img {
-    width: 250px;
+    margin-left: 200px;
+    width: 300px;
     height: auto;
 }
 footer {
     margin-top: auto;
     border-top: 1px solid#001c81;
     text-align: center;
+}
+/*class selectors*/
+.box {
+    margin: 1rem;
+    border: 2px solid rgba (0, 0, 0,.1);
+    padding: 1rem;
+    background-color: var(--background-color);
+    border-color: #810000;
 }
