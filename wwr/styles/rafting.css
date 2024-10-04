@@ -13,18 +13,19 @@ h1 {
     text-align: center;
     padding: 1rem;
     position: absolute;
-    margin-top: -265px;
+    margin-top: -230px;
     margin-left: 350px;
     font-size: xxx-large;
-    -webkit-text-stroke-width: 2px;
-    -webkit-text-stroke-color: #F4F9E9;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #bc8d00;
+    text-decoration: solid;
 }
 article {
     background-color: var(--background-color);
     color: #F4F9E9;
     padding: 5rem;
     opacity: 90%;
-    margin-top: -600px;
+    margin-top: -670px;
     unicode-bidi: isolate;
     display: block;
     position: absolute;
@@ -59,9 +60,10 @@ h2 {
 p {
     background-color: var(--background-color);
     color: #F4F9E9;
-    padding-left: 1rem;
-    padding-right: 1rem;
-    padding-bottom: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 2rem;
+    font-size: larger;
 }
 section {
     background-color: var(--background-color);
@@ -79,24 +81,30 @@ header nav a {
     margin-left: 3rem;
     max-width: 220px;
     max-height: 220px;
-    padding: 10px;
+    padding: 1px;
+    border: 1px solid #bc8d00;
 }
 nav .logo{
     width: 200px;
     height: auto;
-    padding: 2rem;
+    padding: 1px;
+    margin-left: 6rem;
+    border: 1px solid #bc8d00;
+    margin-top: 26px;
 }
 section img {
     width: 230px;
     height: auto;
     margin: 12px;
     padding: 1px;
+    border: 1px solid #bc8d00;
 }
 .bar{
     background-color: #F4F9E9;
     padding: 1rem;
     float: right;
-    margin-top: 65px;
+    margin-top: 84px;
+    border: 1px solid #bc8d00;
 }
 nav {
     border: 1px;
@@ -104,6 +112,7 @@ nav {
     unicode-bidi: isolate;
     border-color: #284b63;
     margin-right: 100px;
+    height: 220px;
 }
 .main img{
     display: block;
@@ -142,4 +151,8 @@ body {
     margin-right: 1rem;
     margin-bottom: 1rem;
     margin-left: 1rem;
+    font-family :'Google Sans';
+    font-style :normal;
+    font-weight :400;
+    font-display :block;
 }
