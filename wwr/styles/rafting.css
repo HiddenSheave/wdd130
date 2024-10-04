@@ -1,0 +1,145 @@
+:root {
+--background-color: #284b63;
+--width-left: 1rem;
+--width-top: 1rem;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1 {
+    color: #F4F9E9;
+    text-align: center;
+    padding: 1rem;
+    position: absolute;
+    margin-top: -265px;
+    margin-left: 350px;
+    font-size: xxx-large;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #F4F9E9;
+}
+article {
+    background-color: var(--background-color);
+    color: #F4F9E9;
+    padding: 5rem;
+    opacity: 90%;
+    margin-top: -600px;
+    unicode-bidi: isolate;
+    display: block;
+    position: absolute;
+    font-size: larger;
+}
+article img {
+    padding-right: 2rem;
+    float: right;
+    width: 150px;
+    height: auto;
+    padding: 1rem;
+}
+.hero {
+    position: relative;
+
+}
+.hero img{
+    margin-top: 1rem;
+    width: 100%;
+    height: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+h2 {
+    font-style: oblique;
+    background-color: var(--background-color);
+    color: #F4F9E9;
+    padding: 2rem;
+    text-align: center;
+}
+p {
+    background-color: var(--background-color);
+    color: #F4F9E9;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 1rem;
+}
+section {
+    background-color: var(--background-color);
+    margin: 1rem;
+}
+header {
+    background-color: #153243;
+}
+header nav a {
+    text-decoration: 0;
+    color: #153243;
+    border: 2px;
+}
+.logo img{
+    margin-left: 3rem;
+    max-width: 220px;
+    max-height: 220px;
+    padding: 10px;
+}
+nav .logo{
+    width: 200px;
+    height: auto;
+    padding: 2rem;
+}
+section img {
+    width: 230px;
+    height: auto;
+    margin: 12px;
+    padding: 1px;
+}
+.bar{
+    background-color: #F4F9E9;
+    padding: 1rem;
+    float: right;
+    margin-top: 65px;
+}
+nav {
+    border: 1px;
+    display: block;
+    unicode-bidi: isolate;
+    border-color: #284b63;
+    margin-right: 100px;
+}
+.main img{
+    display: block;
+    height: auto;
+    width: 100%;
+}
+footer {
+    background-color: #153243;
+    display: flex;
+    text-align: center;
+    padding: 1rem;
+    border: 1px;
+    margin: 1rem;
+    justify-content: center;
+}
+footer #social img {
+    float: right;
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+}
+footer p {
+    background-color: #153243;
+    color: #F4F9E9;
+    padding-top: .5rem;
+    padding-left: .5rem;
+    padding-right: .5rem;
+    padding-bottom: .5rem;
+    margin-right: 150px;
+    margin-left: 270px;
+}
+body {
+    display: block;
+    margin: 8px;
+    margin-top: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+}
