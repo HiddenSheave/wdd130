@@ -10,11 +10,13 @@
 }
 h1 {
     color: #F4F9E9;
+    display: flex;
     text-align: center;
     padding: 1rem;
     position: absolute;
-    margin-top: -230px;
-    margin-left: 350px;
+    margin: 0;
+    margin-top: -19%;
+    margin-left: 30%;
     font-size: xxx-large;
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: #bc8d00;
@@ -40,7 +42,7 @@ article img {
 }
 .hero {
     position: relative;
-
+    align-self: auto;
 }
 .hero img{
     margin-top: 1rem;
@@ -93,11 +95,13 @@ nav .logo{
     margin-top: 26px;
 }
 section img {
-    width: 230px;
+    width: 16%;
     height: auto;
     margin: 12px;
     padding: 1px;
     border: 1px solid #bc8d00;
+    align-content: center;
+    margin-inline: 26px;
 }
 .bar{
     background-color: #F4F9E9;
