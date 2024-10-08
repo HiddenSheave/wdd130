@@ -73,6 +73,7 @@ section {
 }
 header {
     background-color: #153243;
+    grid: ;
 }
 header nav a {
     text-decoration: 0;
@@ -117,6 +118,7 @@ nav {
     border-color: #284b63;
     margin-right: 100px;
     height: 220px;
+    flex: ;
 }
 .main img{
     display: block;
