@@ -63,7 +63,7 @@ main img {
     height: auto;
     float: right;
 }
-aside  h2 {
+aside  h3 {
     position: absolute;
     margin-top: 10px;
     font-size: small;
@@ -105,7 +105,6 @@ footer {
 /*class selectors*/
 .box {
     margin: 1rem;
-    border: 2px solid rgba (0, 0, 0,.1);
     padding: 1rem;
     background-color: var(--background-color);
     border: solid 2px #bc8d00;
