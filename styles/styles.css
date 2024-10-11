@@ -29,10 +29,10 @@ h1 {
     padding: var(--padding);
     text-decoration: underline;
 }
-h2 {
+h3 {
     color: #bc8d00;
     padding: var(--padding);
-    margin-top: 5px;
+    margin-top: 1rem;
     text-decoration: underline;
 }
 img {
@@ -63,7 +63,7 @@ main img {
     height: auto;
     float: right;
 }
-aside  h3 {
+aside  h2 {
     position: absolute;
     margin-top: 10px;
     font-size: small;
@@ -102,7 +102,7 @@ footer {
     border-top: 1px solid#001c81;
     text-align: center;
 }
-/*class selectors*/
+/*Class Selectors */
 .box {
     margin: 1rem;
     padding: 1rem;
@@ -110,9 +110,13 @@ footer {
     border: solid 2px #bc8d00;
     color: #F4F9E9;
 }
+.ric {
+    margin-top: -5rem;
+}
 .box a {
     color: #F4F9E9;
     text-decoration: none;
+    display: flex;
 }
 :hover .box a {
     color: #bc8d00;
