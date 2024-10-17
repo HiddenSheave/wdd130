@@ -1,0 +1,50 @@
+div .done{
+background-color: white;
+margin-top: .5rem;
+width: 500px;
+}
+body {
+    display: flex;
+    font-family: sans-serif;
+    justify-content: center;
+    margin-bottom: 2rem;
+    margin-top: 4rem;
+}
+form {
+    border-radius: 13px;
+    box-shadow: 5px 5px 10px 10px rgb(193, 193, 193);
+    padding: 1rem;
+}
+textarea {
+    width: 435px;
+    height: 70px;
+    border: 1px solid rgb(158, 158, 158) ;
+    border-radius: 3px;
+}
+input {
+    width: 416px;
+    border-radius: 3px;
+    border: 1px solid rgb(158, 158, 158) ;
+    outline: 1px 1px black;
+    padding: .7rem;
+}
+legend {
+    padding: 5px;
+}
+button {
+    background-color: rgba(6, 179, 0, 0.88);
+    color: white;
+    padding: .5rem 4rem 0.5rem 4rem;
+    margin-bottom: -1rem;
+    width: 440px;
+    border-radius: 6px;
+}
+:hover button {
+    background-color: green;
+}
+fieldset {
+    border: 0;
+}
+html {
+    background-color: rgb(242, 242, 242);
+}
