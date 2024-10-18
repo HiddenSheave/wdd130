@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Bryce Petrovay">
-    <meta name="description" content="A Whitewater rafting Company">
-    <title>WhiteWater Rafting Company - About Us</title>
+    <meta name="description" content="A Whitewater rafting Company Contact Us page">
+    <title>WhiteWater Rafting Company - Contact Us</title>
     <link rel="stylesheet" href="styles/rafting.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -35,6 +35,15 @@
                     </div>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea veniam incidunt dolores possimus pariatur, ipsa fuga cumque numquam expedita ad facere sunt voluptates corporis modi exercitationem. Inventore temporibus omnis libero ipsum, voluptas voluptate autem, sit dolore hic excepturi deleniti, et assumenda? Modi voluptatum consequuntur quia, nihil expedita saepe blanditiis delectus magni quibusdam deserunt illo laboriosam esse maxime corrupti! Neque expedita iusto recusandae nulla aliquid minima quaerat tenetur, eum rem voluptate voluptates eos iste numquam eius sunt, sapiente officiis minus nostrum natus eveniet repellendus asperiores perferendis. Tempore quasi dolore dolorum, autem facilis quidem nesciunt in est fuga molestiae laboriosam debitis amet accusamus eaque eligendi magnam ex libero? Nesciunt asperiores numquam quaerat quis officia quasi corporis quisquam id, dolorum molestiae, cum perferendis?</p>
                 </article>
+                <div id="companyinfo">
+                    <h2>Company Information</h2>
+                    <p>Address: 255 Sands Ave, Las Vegas, NV 89169, United States</p>
+                    <p>Phone Number: +1 (801) 795385</p>
+                    <a href="Email: Whitewaterrafting@gmail.com"></a>
+                    <div>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d97354.24278278346!2d-111.47484561144556!3d36.970816652939135!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2scz!4v1729178074641!5m2!1sen!2scz" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
             </div>
             <form action="Info">
                 <fieldset>
@@ -46,11 +55,19 @@
                     <label for="email">Email</label>
                     <input type="email" id="email" name="email"><br><br>
 
-                    <label for="phonenumber">Phone Number</label>
-                    <input type="" id="phonenumber" name="phonenumber"><br><br>
+                    <label for="purpose">Purpose of Message</label>
+                    <input type="radio" name="purpose" id="purpose">
+                        <option value="general inquiry">General Inquiry</option>
+                        <option value="reservation question">Reservation Question</option>
+                        <option value="website suggestion">Website suggestion</option>
 
-                    <label for="name">Name</label>
-                    <input type="text" id="name" name="name"><br><br>
+                    <label for="message">The Message</label>
+                    <textarea name="message" id="message"></textarea>
+
+                    <label for="newsletter">Please subscribe me to the monthly newsletter</label>
+                    <input type="checkbox" name="newsletter" id="newsletter">
+
+                    <button id="submit">Submit</button>
                 </fieldset>
                 <fieldset>
                     <legend>Preferences</legend>
