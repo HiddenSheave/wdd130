@@ -11,8 +11,7 @@
 </head>
 <body>
     <main>
-        <div>
-            <h1>WDD 130 | HTML Form - User Poll</h1>
+        <header><h1>WDD 130 | HTML Form - User Poll</h1></header>
             <form>
                 <fieldset>
                     <legend>Contact Information</legend>
@@ -35,18 +34,15 @@
                             <option value="firefox">Firefox</option>
                         </select>  
                     </div>  
-                    <div class="form-item">
+                    <div class="form-item column1">
                         <label for="pet">Do you have a household pet?</label>  
                         <input type="checkbox" name="pet" id="pet"> 
                     </div>
-                    <label for="placeslived">List the places you have lived:</label> 
-                    <textarea name="placeslived" id="placeslived" placeholder="Alderaan, Tatooine, Hoth" rows="4"></textarea>       
-                    <div id="this">
-                    <button type="submit">Submit Poll</button>
-                    </div>
+                    <label for="placeslived-label">List the places you have lived:</label> 
+                    <textarea name="placeslived" id="placeslived" rows="4" placeholder="Alderaan, Tatooine, Hoth"></textarea>       
                 </fieldset>
+                    <button type="submit">Submit Poll</button>
             </form>
-        </div>
     </main>
     <footer>
         <p>&copy;2024 | HTML Form - User Poll Activity | Bryce Petrovay</p>
