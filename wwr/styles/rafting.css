@@ -207,10 +207,10 @@ nav .logo{
         padding: 0;
         box-sizing: border-box;
     }
-    .hero {
+    .heros {
         position: relative;
     }
-    #hero {
+    #heros {
         width: 100%;
         height: auto;
         display: block;
@@ -232,17 +232,17 @@ nav .logo{
         padding-bottom: .5rem;
         font-size: larger;
     }
-    .logo img{
+    .logos img{
         margin-left: 3rem;
         max-width: 220px;
         max-height: 220px;
         padding: 1px;
         border: 1px solid #bc8d00;
     }
-    .logo {
+    .logos {
         justify-content: center;
     }
-    .bar{
+    .bare{
         background-color: #F4F9E9;
         padding: 1rem;
         float: right;
@@ -307,7 +307,7 @@ nav .logo{
         list-style: none;
         grid-column: 3/5;
     }
-    nav .logo{
+    nav .logos{
         width: 200px;
         height: auto;
         padding: 1px;
@@ -347,14 +347,14 @@ nav .logo{
         margin-left: 4rem;
 
     }
-    .image1 img, .image2 img{
+    .image10 img, .image11 img{
         width: 250px;
         height: auto;
         padding: 10px;
         border: 3px solid #bc8d00;
         background-color: #153243;
     }
-    .image1 img {
+    .image10 img {
         display: grid;
         grid-column: 1/2;
     }
