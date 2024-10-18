@@ -6,7 +6,7 @@
     <meta name="author" content="Bryce Petrovay">
     <meta name="description" content="A Whitewater rafting Company Contact Us page">
     <title>WhiteWater Rafting Company - Contact Us</title>
-    <link rel="stylesheet" href="styles/contact.css">
+    <link rel="stylesheet" href="styles/rafting.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.google.com/share?selection.family=Oswald:wght@200..700" rel="stylesheet">
@@ -29,7 +29,6 @@
         <div class="hero">
             <img id="hero" src="images/coloradoriver.jpg" alt="River" height="250" width="190">
         </div>
-        <article>
             <div id="companyinfo">
                 <h2>Company Information</h2>
                 <p>Address: 255 Sands Ave, Las Vegas, NV 89169, United States</p>
@@ -39,11 +38,10 @@
                     <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d97354.24278278346!2d-111.47484561144556!3d36.970816652939135!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2scz!4v1729178074641!5m2!1sen!2scz" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
             </div>
-        </article>
             <form>
                 <fieldset>
                     <div class="from">
-                    <h3>Personal Information</h3>
+                    <h1>Personal Information</h1>
 
                     <label for="name">Name</label>
                     <input type="text" id="name" name="name" placeholder="Type Name..."><br><br>
@@ -63,11 +61,12 @@
                         
                     <label for="message">The Message</label>
                     <textarea name="message" id="message" rows="5" placeholder="Type here to begin..."></textarea>
+                    <div class="right">
+                        <label for="newsletter">Please subscribe me to the monthly newsletter</label>
+                        <input type="checkbox" name="newsletter" id="newsletter">
+                    </div>
 
-                    <label for="newsletter">Please subscribe me to the monthly newsletter</label>
-                    <input type="checkbox" name="newsletter" id="newsletter">
-
-                    <button id="submit">Submit</button>
+                    <button type="submit">Submit</button>
                     </div>
                 </fieldset>
             </form>
