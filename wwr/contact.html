@@ -6,7 +6,7 @@
     <meta name="author" content="Bryce Petrovay">
     <meta name="description" content="A Whitewater rafting Company Contact Us page">
     <title>WhiteWater Rafting Company - Contact Us</title>
-    <link rel="stylesheet" href="styles/rafting.css">
+    <link rel="stylesheet" href="styles/contact.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.google.com/share?selection.family=Oswald:wght@200..700" rel="stylesheet">
@@ -25,58 +25,77 @@
         </nav>
     </header>
     </div>
-        <main>
-            <div class="hero">
-                <img id="hero" src="images/rafting.jpg" alt="River" height="250" width="190">
-                <article>
-                    <div class="logo">
-                        <h1>White Water Rafting</h1>
-                        <img src="images/raftinglogo.jpg" alt="logo">
-                    </div>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea veniam incidunt dolores possimus pariatur, ipsa fuga cumque numquam expedita ad facere sunt voluptates corporis modi exercitationem. Inventore temporibus omnis libero ipsum, voluptas voluptate autem, sit dolore hic excepturi deleniti, et assumenda? Modi voluptatum consequuntur quia, nihil expedita saepe blanditiis delectus magni quibusdam deserunt illo laboriosam esse maxime corrupti! Neque expedita iusto recusandae nulla aliquid minima quaerat tenetur, eum rem voluptate voluptates eos iste numquam eius sunt, sapiente officiis minus nostrum natus eveniet repellendus asperiores perferendis. Tempore quasi dolore dolorum, autem facilis quidem nesciunt in est fuga molestiae laboriosam debitis amet accusamus eaque eligendi magnam ex libero? Nesciunt asperiores numquam quaerat quis officia quasi corporis quisquam id, dolorum molestiae, cum perferendis?</p>
-                </article>
-                <div id="companyinfo">
-                    <h2>Company Information</h2>
-                    <p>Address: 255 Sands Ave, Las Vegas, NV 89169, United States</p>
-                    <p>Phone Number: +1 (801) 795385</p>
-                    <a href="Email: Whitewaterrafting@gmail.com"></a>
-                    <div>
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d97354.24278278346!2d-111.47484561144556!3d36.970816652939135!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2scz!4v1729178074641!5m2!1sen!2scz" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                    </div>
+    <main>
+        <div class="hero">
+            <img id="hero" src="images/coloradoriver.jpg" alt="River" height="250" width="190">
+        </div>
+        <article>
+            <div id="companyinfo">
+                <h2>Company Information</h2>
+                <p>Address: 255 Sands Ave, Las Vegas, NV 89169, United States</p>
+                <p>Phone Number: <a href="tel:+1801795385">+1 (801) 795 385</a></p>
+                <p>Email Us: <a href="mailto:whitewaterrafting@gmail.com">Whitewaterrafting@gmail.com</a></p>
+                <div class="google">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d97354.24278278346!2d-111.47484561144556!3d36.970816652939135!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2scz!4v1729178074641!5m2!1sen!2scz" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
             </div>
-            <form action="Info">
+        </article>
+            <form>
                 <fieldset>
-                    <legend>Personal Information</legend>
+                    <div class="from">
+                    <h3>Personal Information</h3>
 
                     <label for="name">Name</label>
-                    <input type="text" id="name" name="name"><br><br>
+                    <input type="text" id="name" name="name" placeholder="Type Name..."><br><br>
 
                     <label for="email">Email</label>
-                    <input type="email" id="email" name="email"><br><br>
+                    <input type="email" id="email" name="email" placeholder="Type Email..."><br><br>
 
-                    <label for="purpose">Purpose of Message</label>
-                    <input type="radio" name="purpose" id="purpose">
-                        <option value="general inquiry">General Inquiry</option>
-                        <option value="reservation question">Reservation Question</option>
-                        <option value="website suggestion">Website suggestion</option>
-
+                    <div class="cheese">
+                        <h4>Purpose of Message</h4>
+                        <input type="radio" id="general" name="purpose" value="general">
+                        <label for="general">General Inquiry</label><br>
+                        <input type="radio" id="reservation" name="purpose" value="reservation">
+                        <label for="reservation">Reservation Question</label><br>
+                        <input type="radio" id="suggestion" name="purpose" value="suggestion">
+                        <label for="suggestion">Website suggestion</label>
+                    </div>
+                        
                     <label for="message">The Message</label>
-                    <textarea name="message" id="message"></textarea>
+                    <textarea name="message" id="message" rows="5" placeholder="Type here to begin..."></textarea>
 
                     <label for="newsletter">Please subscribe me to the monthly newsletter</label>
                     <input type="checkbox" name="newsletter" id="newsletter">
 
                     <button id="submit">Submit</button>
+                    </div>
                 </fieldset>
-                <fieldset>
-                    <legend>Preferences</legend>
-
-                    <label for="newsletter">Subscribe to our Newsletter</label>
-                    <input type="checkbox" id="newsletter" name="newsletter"><br><br>
-                </fieldset>
-                <button type="submit">Submit</button>
             </form>
+            <div id="bottom">
+                <div class="image1">
+                    <img src="images/powell.png" alt="Lake Powell">
+                </div>
+                <div class="employees">
+                    <figure>
+                        <img src="images/john.jpg" alt="John">
+                        <figcaption>Jonathan Campbell<br><br>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, quis?</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="images/ellie.jpg" alt="Ellie">
+                        <figcaption>Ellie Tchaikovsky<br><br>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, quis?</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="images/cameron.jpg" alt="Cameron">
+                        <figcaption>Cameron Power<br><br>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, quis?</figcaption>
+                    </figure>
+                </div>
+                <div class="image2">
+                    <img src="images/ryanandhugh.jpg" alt="Ryan and Hugh">
+                </div>
+            </div>
         </main>
     <footer>
         <p>&copy; 2024, White Water Rafting Company - CEO, Bryce Petrovay</p>
